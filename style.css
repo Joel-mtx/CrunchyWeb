@@ -28,3 +28,33 @@ img{
     margin-right: 10%;
     
 }
+
+h1{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 35px;
+    
+}
+
+.question1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-align: justify
+    
+}
+
+.question1 .content{
+    padding: 20px;
+}
+
+#lake{
+    width: 500px;
+    height: 500px
+}
+
+#lakeTitle{
+    display: flex;
+}
