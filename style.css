@@ -1,14 +1,28 @@
+@font-face{
+    font-family: myFirstFont;
+    src: url(Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: BodyFont;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+::selection{
+    background-color:darkgray;
+    color: white;
+    
+}
+
 body{
     font-family: sans-serif;
+     color: darkcyan;
 }
 
 header{
     text-align: center;
 }
 
-h1{
-    font-size: 35px;
-}
 
 .home{
     width: 80%;
@@ -30,31 +44,172 @@ img{
 }
 
 h1{
-    font-size: 50px;
+    
+    font-size: 70px;
+    font-family: BodyFont;
+    color:burlywood;
 }
+
 
 h3{
     font-size: 35px;
     
 }
 
+                        /*This section deals with the who we are question*/
+
+/*Text Response*/
 .question1{
     display: flex;
     justify-content: space-between;
     font-size: 30px;
-    text-align: justify
+    text-align: justify;
+    font-family: BodyFont;
+    line-height: 50px;
     
 }
 
 .question1 .content{
-    padding: 20px;
+    padding: 52px;
 }
 
 #lake{
-    width: 500px;
-    height: 500px
+    width: 800px;
+    height: 800px
+}
+/* Text Question*/
+#question1{
+    text-align: center;
+    font-size: 150px;
+    font-family:sans-serif;
+        
 }
 
-#lakeTitle{
+
+                                                /*This section deals with the who we are not quiestion*/
+/*Text of the response*/
+.section2{                  
     display: flex;
+    justify-content: space-between;
+    font-family: BodyFont;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 50px
 }
+
+/*Text Question*/
+#question2{
+    
+     text-align: center;
+    font-size: 75px;
+    font-family:sans-serif;
+}
+
+#image2{
+    width: 800px;
+    height: 800px;
+}
+
+/*Elements distribution*/
+.section2 .response2 {
+    
+    padding: 50px;
+}
+
+                                                 /*This section deals with the what we do*/
+
+/*Text Question*/
+#question3{
+    text-align: center;
+    font-size: 75px;
+    font-family: BodyFont;
+    
+}
+
+.section3{
+    display: flex;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: BodyFont;
+    text-align: justify;
+    
+}
+
+#image3{
+    width: 800px;
+    height: 800ps;
+}
+
+.section3 .response3{
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
