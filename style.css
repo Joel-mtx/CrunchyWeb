@@ -14,6 +14,11 @@
     
 }
 
+html, body{
+    width: 100%;
+    min-height: 100%;
+}
+
 body{
     font-family: sans-serif;
      color: darkcyan;
@@ -74,8 +79,8 @@ h3{
 }
 
 #lake{
-    width: 800px;
-    height: 800px
+    max-width: 100%;
+    max-height: 100%;
 }
 /* Text Question*/
 #question1{
@@ -136,8 +141,8 @@ h3{
 }
 
 #image3{
-    width: 800px;
-    height: 800ps;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .section3 .response3{
